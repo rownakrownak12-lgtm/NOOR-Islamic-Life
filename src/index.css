@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #06130F;
+    --bg-card: #081A14;
+    --primary: #17C98B;
+    --secondary: #0E9F70;
+    --gold: #E7BD68;
+    --gold-light: #F3D99E;
+    --text-light: #F5FFF9;
+    --text-muted: #A7BEB3;
+    --border-color: rgba(23, 201, 139, 0.15);
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  .font-arabic {
+    font-family: 'Amiri', 'Scheherazade New', serif;
+  }
+
+  .font-bengali {
+    font-family: 'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
+  }
+}
+
+/* Islamic Geometric Pattern Background */
+.islamic-bg-pattern {
+  background-color: #06130F;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(23, 201, 139, 0.15) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(231, 189, 104, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 0% 100%, rgba(14, 159, 112, 0.12) 0%, transparent 50%),
+    url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2317C98B' fill-opacity='0.028' fill-rule='evenodd'%3E%3Cpath d='M40 0l40 40-40 40L0 40 40 0zm0 10l30 30-30 30L10 40l30-30zm0 10l20 20-20 20-20-20 20-20zm0 10l10 10-10 10-10-10 10-10z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.islamic-bg-light {
+  background-color: #F8FCFA;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(23, 201, 139, 0.1) 0%, transparent 60%),
+    url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%230E9F70' fill-opacity='0.04' fill-rule='evenodd'%3E%3Cpath d='M40 0l40 40-40 40L0 40 40 0zm0 10l30 30-30 30L10 40l30-30zm0 10l20 20-20 20-20-20 20-20zm0 10l10 10-10 10-10-10 10-10z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Glassmorphism Classes */
+.glass-card {
+  background: rgba(8, 26, 20, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(23, 201, 139, 0.15);
+}
+
+.glass-card:hover {
+  border-color: rgba(231, 189, 104, 0.35);
+}
+
+.glass-card-gold {
+  background: linear-gradient(135deg, rgba(8, 26, 20, 0.85) 0%, rgba(18, 38, 30, 0.85) 100%);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(231, 189, 104, 0.25);
+  box-shadow: 0 10px 30px -10px rgba(231, 189, 104, 0.15);
+}
+
+.glass-light-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(14, 159, 112, 0.15);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #06130F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #17C98B44;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #17C98B88;
+}
+
+/* Gold Gradient Text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F3D99E 0%, #E7BD68 50%, #C99B3B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-emerald-gradient {
+  background: linear-gradient(135deg, #4EEDB2 0%, #17C98B 50%, #0E9F70 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

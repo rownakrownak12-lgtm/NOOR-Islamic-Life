@@ -1,0 +1,6 @@
+{
+  "name": "NOOR — Islamic Life",
+  "description": "Your Daily Islamic Companion with Prayer Times, Adhan, Quran Recitation, Jummah Khutbah, Waz, Qibla Compass, Tasbih and Daily Duas. Developed by ASM Rownak.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

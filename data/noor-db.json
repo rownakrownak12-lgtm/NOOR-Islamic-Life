@@ -1,0 +1,351 @@
+{
+  "admin": {
+    "passwordHash": "noor2026",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  "settings": {
+    "siteName": "NOOR",
+    "tagline": "Your Daily Islamic Companion",
+    "defaultCity": "Dhaka",
+    "defaultCountry": "Bangladesh",
+    "adminEmail": "admin@noorislamic.org",
+    "ramadanActive": false,
+    "ramadanYear": 1448,
+    "announcement": "স্বাগতম NOOR ইসলামিক অ্যাপ্লিকেশনে। আল্লাহর স্মরণে জীবনের প্রতিটি মুহূর্ত আলোকিত হোক।"
+  },
+  "speakers": [
+    {
+      "id": "speaker-1",
+      "name": "Dr. Mizanur Rahman Azhari",
+      "banglaName": "ড. মিজানুর রহমান আজহারী",
+      "description": "আন্তর্জাতিক খ্যাতিসম্পন্ন ইসলামিক বক্তা ও গবেষক। আল-আজহার বিশ্ববিদ্যালয়ের প্রাক্তন শিক্ষার্থী ও সমকালীন দাঈ।",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b74wJj_8KOU",
+      "category": "Islamic Lecture",
+      "featured": true,
+      "order": 1,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "speaker-2",
+      "name": "Shaykh Ahmadullah",
+      "banglaName": "শায়খ আহমাদুল্লাহ",
+      "description": "বিশিষ্ট ইসলামিক চিন্তাবিদ, খতিব ও আস-সুন্নাহ ফাউন্ডেশনের চেয়ারম্যান। বিশুদ্ধ জ্ঞান ও মানবিক কাজের পথপ্রদর্শক।",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Q7jA91-B8s4",
+      "category": "Tafsir",
+      "featured": true,
+      "order": 2,
+      "createdAt": "2026-01-02"
+    },
+    {
+      "id": "speaker-3",
+      "name": "Abu Toha Muhammad Adnan",
+      "banglaName": "আবু ত্ব-হা মুহাম্মদ আদনান",
+      "description": "তরুণ প্রজন্মের জনপ্রিয় ইসলামিক চিন্তাবিদ ও সমকালীন ভূরাজনীতি ও আখিরুয যামান বিষয়ক গবেষক।",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vL47m9f5N8M",
+      "category": "Youth Guidance",
+      "featured": true,
+      "order": 3,
+      "createdAt": "2026-01-03"
+    },
+    {
+      "id": "speaker-4",
+      "name": "Mufti Amir Hamza",
+      "banglaName": "মুফতী আমির হামজা",
+      "description": "প্রখ্যাত মুফাসসিরে কুরআন ও জনপ্রিয় সুবক্তা। সমকালীন জীবন ও কুরআনি দৃষ্টিভঙ্গি উপস্থাপক।",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x7eK_k27zLo",
+      "category": "Waz",
+      "featured": false,
+      "order": 4,
+      "createdAt": "2026-01-04"
+    },
+    {
+      "id": "speaker-5",
+      "name": "Tariq Monowar",
+      "banglaName": "মাওলানা তারেক মনোয়ার",
+      "description": "প্রবীণ ও খ্যাতিমান ইসলামিক স্কলার, বক্তা ও সমাজ সংস্কারক। সহজ-সরল ভাষায় দ্বীনের আহবানকারী।",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cM6-kL_v_4A",
+      "category": "Waz",
+      "featured": false,
+      "order": 5,
+      "createdAt": "2026-01-05"
+    }
+  ],
+  "imams": [
+    {
+      "id": "imam-1",
+      "name": "Sheikh Abdul Rahman Al-Sudais",
+      "arabicName": "الشيخ عبد الرحمن السديس",
+      "title": "Imam & Khateeb of Masjid al-Haram",
+      "mosque": "Masjid al-Haram, Makkah",
+      "photoUrl": "",
+      "quranUrl": "https://server11.mp3quran.net/sds/001.mp3",
+      "khutbahUrl": "https://www.youtube.com/results?search_query=Sheikh+Sudais+Khutbah+Haram",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Sheikh+Sudais+Tilawat",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "imam-2",
+      "name": "Sheikh Dr. Maher Al-Muaiqly",
+      "arabicName": "الشيخ ماهر المعيقلي",
+      "title": "Imam & Khateeb of Masjid al-Haram",
+      "mosque": "Masjid al-Haram, Makkah",
+      "photoUrl": "",
+      "quranUrl": "https://server12.mp3quran.net/maher/001.mp3",
+      "khutbahUrl": "https://www.youtube.com/results?search_query=Sheikh+Maher+Al-Muaiqly+Khutbah",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Maher+Al-Muaiqly+Tilawat",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "imam-3",
+      "name": "Sheikh Abdullah Awad Al-Juhany",
+      "arabicName": "الشيخ عبد الله عواد الجهني",
+      "title": "Imam of Masjid al-Haram",
+      "mosque": "Masjid al-Haram, Makkah",
+      "photoUrl": "",
+      "quranUrl": "https://server13.mp3quran.net/jhn/001.mp3",
+      "khutbahUrl": "https://www.youtube.com/results?search_query=Sheikh+Abdullah+Al-Juhany+Haram",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Abdullah+Al-Juhany+Quran",
+      "featured": true,
+      "order": 3
+    },
+    {
+      "id": "imam-4",
+      "name": "Sheikh Dr. Bandar Baleela",
+      "arabicName": "الشيخ بندر بليلة",
+      "title": "Imam & Khateeb of Masjid al-Haram",
+      "mosque": "Masjid al-Haram, Makkah",
+      "photoUrl": "",
+      "quranUrl": "https://server6.mp3quran.net/balilah/001.mp3",
+      "khutbahUrl": "https://www.youtube.com/results?search_query=Bandar+Baleela+Haram+Khutbah",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Bandar+Baleela+Tilawat",
+      "featured": false,
+      "order": 4
+    },
+    {
+      "id": "imam-5",
+      "name": "Sheikh Dr. Saleh Al-Humaid",
+      "arabicName": "الشيخ صالح بن عبد الله بن حميد",
+      "title": "Senior Imam & Khateeb of Masjid al-Haram",
+      "mosque": "Masjid al-Haram, Makkah",
+      "photoUrl": "",
+      "quranUrl": "https://server11.mp3quran.net/sds/112.mp3",
+      "khutbahUrl": "https://www.youtube.com/results?search_query=Saleh+Al-Humaid+Khutbah",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Saleh+Al-Humaid+Masjid+Haram",
+      "featured": false,
+      "order": 5
+    }
+  ],
+  "khutbahs": [
+    {
+      "id": "khutbah-1",
+      "title": "The Reality of Taqwa and Sincere Devotion (ইখলাস ও তাকওয়ার গুরুত্ব)",
+      "arabicTitle": "حقيقة التقوى والإخلاص لله تعالى",
+      "date": "Friday, 2026-09-25",
+      "hijriDate": "14 Rabi al-Awwal 1448 AH",
+      "language": "Arabic",
+      "audioUrl": "https://archive.org/download/feb192021makkahjumuah/19thFeb2021MakkahJumuahKhutbahSheikhSudais.mp3",
+      "sourceUrl": "",
+      "featured": true,
+      "speaker": "Sheikh Dr. Abdul Rahman Al-Sudais (Masjid al-Haram)",
+      "duration": "26:44",
+      "summary": "মসজিদুল হারামের পূর্ণাঙ্গ জুমার খুতবা: তাকওয়া ও খাঁটি ইখলাস কীভাবে মুমিনের অন্তরকে পরিশুদ্ধ করে এবং পার্থিব ও পরকালীন সফলতার দ্বার উন্মোচন করে।",
+      "fullText": "الحمد لله رب العالمين، القائل في محكم التنزيل: (يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ حَقَّ تُقَاتِهِ وَلَا تَمُوتُنَّ إِلَّا وَأَنْتُمْ مُسْلِمُونَ). عباد الله: إن التقوى هي وصية الله للأولين والآخرين، ومفتاح كل خير، وبها تطمئن القلوب وتصلح الأحوال وتكفر السيئات وتعظم الأجور. فاتقوا الله عباد الله في السر والعلن، واعلموا أن الإخلاص أساس قبول الأعمال."
+    },
+    {
+      "id": "khutbah-2",
+      "title": "Walking with Guidance & Guarding the Tongue (হেদায়েতের পথ ও জিহ্বা নিয়ন্ত্রণ)",
+      "arabicTitle": "سبل الهداية وحفظ اللسان عن الزلل",
+      "date": "Friday, 2026-09-18",
+      "hijriDate": "7 Rabi al-Awwal 1448 AH",
+      "language": "Arabic",
+      "audioUrl": "https://archive.org/download/feb122021makkahjumuah/12thFeb2021MakkahJumuahKhutbahSheikhBaleelah.mp3",
+      "sourceUrl": "",
+      "featured": true,
+      "speaker": "Sheikh Dr. Bandar Baleela (Masjid al-Haram)",
+      "duration": "19:50",
+      "summary": "মসজিদুল হারামের জুমার খুতবা: সত্য ও ন্যায়ের উপর অবিচল থাকা এবং অনর্থক বাক্যালাপ থেকে জিহ্বাকে সংযত রাখার অপরিসীম গুরুত্ব।",
+      "fullText": "عباد الله: أوصيكم ونفسي بتقوى الله تعالى، فمن اتقى الله وقاه وهداه إلى صراط مستقيم. واعلموا أن سلامة اللسان وطهارة الجنان من أعظم دلائل الإيمان ورفعة الدرجات يوم الحساب."
+    },
+    {
+      "id": "khutbah-3",
+      "title": "True Brotherhood & Forgiveness in Islam (উম্মাহর ঐক্য ও পারস্পরিক ক্ষমা)",
+      "arabicTitle": "أخوة الإيمان وفضيلة العفو والتسامح",
+      "date": "Friday, 2026-09-11",
+      "hijriDate": "29 Safar 1448 AH",
+      "language": "Arabic",
+      "audioUrl": "https://archive.org/download/feb212020makkahjumuah/21stFeb2020MakkahJumuahKhutbahSheikhShuraim.mp3",
+      "sourceUrl": "",
+      "featured": false,
+      "speaker": "Sheikh Dr. Saud Al-Shuraim (Masjid al-Haram)",
+      "duration": "17:10",
+      "summary": "মসজিদুল হারামের জুমার বয়ান: মুসলিম উম্মাহর মধ্যকার সৌহার্দ্য, হিংসা-বিদ্বেষ পরিহার ও ক্ষমার মাহাত্ম্য।",
+      "fullText": "إن المؤمن للمؤمن كالبنيان يشد بعضه بعضاً. فالله تعالى يدعو عباده إلى التسامح والصفح وتطهير القلوب من الغل والحسد."
+    },
+    {
+      "id": "khutbah-4",
+      "title": "Purification of the Heart and Trust in Allah (আত্মশুদ্ধি ও তাওয়াক্কুল)",
+      "arabicTitle": "تزكية النفس والتوكل على الله",
+      "date": "Friday, 2026-09-04",
+      "hijriDate": "22 Safar 1448 AH",
+      "language": "English",
+      "audioUrl": "https://archive.org/download/icrjummahkhutbah16thaug201915thdhulhijjah1440sheikhmohammadabbasi/ICR_Jummah_Khutbah_16th_Aug_2019_15th_Dhul_Hijjah_1440_Sheikh_Mohammad_Abbasi.mp3",
+      "sourceUrl": "",
+      "featured": true,
+      "speaker": "Sheikh Mohammad Abbasi",
+      "duration": "27:51",
+      "summary": "Full English Friday Khutbah: Purifying one's heart from arrogance, placing full reliance on Allah, and staying firm during trials and hardship.",
+      "fullText": "All praise is due to Allah, the Sustainer of all creations. Believers are called to cleanse their inner hearts, to rely wholeheartedly upon the Almighty, and to manifest true piety in their daily interactions."
+    },
+    {
+      "id": "khutbah-5",
+      "title": "Family Peace, Rights of Parents & Taqwa (পারিবারিক শান্তি ও পিতা-মাতার হক)",
+      "arabicTitle": "بر الوالدين وحقوق الأسرة في الإسلام",
+      "date": "Friday, 2026-08-28",
+      "hijriDate": "15 Safar 1448 AH",
+      "language": "Bengali",
+      "audioUrl": "https://archive.org/download/mostakon/About-Exclusive-Top-Lecture-by-Mufti-Mostakun-nobi.mp3",
+      "sourceUrl": "",
+      "featured": true,
+      "speaker": "মুফতি ও খতিব (বাংলা জুমার বয়ান)",
+      "duration": "66:56",
+      "summary": "বাংলা পূর্ণাঙ্গ জুমার বয়ান: পিতা-মাতার অপরিসীম মর্যাদা, পারিবারিক শান্তি বজায় রাখার উপায় এবং বান্দার প্রতি আল্লাহর রহমতের আহ্বান।",
+      "fullText": "সমস্ত প্রশংসা একমাত্র মহান আল্লাহ তাআলার। পিতা-মাতার খেদমত ও সন্তুষ্টি অর্জন জান্নাতের চাবিকাঠি। আত্মীয়তার হক আদায় ও তাকওয়ার জীবনযাপনই মুমিনের পরম পরিচয়।"
+    },
+    {
+      "id": "khutbah-6",
+      "title": "Preparation for Akhirah & Sincere Repentance (আখিরাতের প্রস্তুতি ও খাঁটি তওবা)",
+      "arabicTitle": "الاستعداد للآخرة والتوبة النصوح",
+      "date": "Friday, 2026-08-21",
+      "hijriDate": "8 Safar 1448 AH",
+      "language": "Urdu",
+      "audioUrl": "https://archive.org/download/JumahBayanBatleyjuly01201124k/Jumah_Bayan_-_Batley_-_01.07.2011_24k.mp3",
+      "sourceUrl": "",
+      "featured": false,
+      "speaker": "Sheikh Maulana Tariq Jameel",
+      "duration": "39:09",
+      "summary": "اردو جمعہ بیان: اللہ کی طرف رجوع، سچی توبہ اور دنیا کی ناپائیداری کے مقابلے میں آخرت کی ابدی کامیابی کی فکر۔",
+      "fullText": "تمام تعریفیں اللہ رب العزت کے لیے ہیں۔ اے ایمان والو! سچی توبہ کرو، کیونکہ اللہ تعالی توبہ کرنے والوں کو دوست رکھتا ہے اور ان کے গনাہوں کو معاف فرماتا ہے۔"
+    }
+  ],
+  "duas": [
+    {
+      "id": "dua-1",
+      "arabic": "رَبِّ زِدْنِي عِلْمًا",
+      "banglaTranslation": "হে আমার প্রতিপালক! আমার জ্ঞান বৃদ্ধি করে দিন।",
+      "englishTranslation": "O my Lord! Increase me in knowledge.",
+      "banglaTransliteration": "রব্বি যিদনী ইলমা",
+      "source": "সূরা ত্ব-হা (২০:১১৪)",
+      "category": "knowledge",
+      "featured": true
+    },
+    {
+      "id": "dua-2",
+      "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "banglaTranslation": "হে আমাদের পালনকর্তা! আমাদের দুনিয়াতে কল্যাণ দিন এবং আখিরাতেও কল্যাণ দিন এবং আগুনের শাস্তি থেকে আমাদের রক্ষা করুন।",
+      "englishTranslation": "Our Lord, give us in this world that which is good and in the Hereafter that which is good and protect us from the punishment of the Fire.",
+      "banglaTransliteration": "রব্বানা আতিনা ফিদ-দুনয়া হাসানাতাও ওয়া ফিল-আখিরাতি হাসানাতাও ওয়া কিনা আযাবান নার",
+      "source": "সূরা আল-বাকারা (২:২০১)",
+      "category": "daily",
+      "featured": true
+    },
+    {
+      "id": "dua-3",
+      "arabic": "رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+      "banglaTranslation": "হে আমার পালনকর্তা! তাদের উভয়ের (পিতা-মাতার) প্রতি দয়া করুন, যেমন তারা শৈশবে আমাকে লালন-পালন করেছেন।",
+      "englishTranslation": "My Lord, have mercy upon them as they brought me up when I was small.",
+      "banglaTransliteration": "রব্বির হামহুমা কামা রব্বায়ানী সগীরা",
+      "source": "সূরা আল-ইসরা (১৭:২৪)",
+      "category": "parents",
+      "featured": true
+    },
+    {
+      "id": "dua-4",
+      "arabic": "لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+      "banglaTranslation": "তুমি ছাড়া কোনো সত্য উপাস্য নেই, তুমি মহাপবিত্র! নিশ্চয়ই আমি অত্যাচারীদের অন্তর্ভুক্ত ছিলাম।",
+      "englishTranslation": "There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.",
+      "banglaTransliteration": "লা ইলাহা ইল্লা আনতা সুবহানাকা ইন্নি কুনতু মিনায য-লিমীন",
+      "source": "সূরা আল-আম্বিয়া (২১:৮৭) [দোয়া ইউনুস]",
+      "category": "forgiveness",
+      "featured": true
+    },
+    {
+      "id": "dua-5",
+      "arabic": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ",
+      "banglaTranslation": "আমরা সকালে উপনীত হয়েছি এবং সমস্ত রাজত্বও আল্লাহর উদ্দেশ্যে সকালে উপনীত হয়েছে। সমস্ত প্রশংসা আল্লাহর, যিনি ব্যতীত কোনো ইলাহ নেই, তিনি একক, তাঁর কোনো শরিক নেই।",
+      "englishTranslation": "We have entered a new morning and with it all dominion belongs to Allah. Praise is to Allah, none has the right to be worshipped except Allah alone.",
+      "banglaTransliteration": "আসবাহনা ওয়া আসবাহাল মুলকু লিল্লাহ, ওয়াল হামদুলিল্লাহ...",
+      "source": "সহীহ মুসলিম (হাদীস ২৭২৩)",
+      "category": "morning_evening",
+      "featured": false
+    },
+    {
+      "id": "dua-6",
+      "arabic": "اللَّهُمَّ إِنَّكَ عَفُوٌّ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
+      "banglaTranslation": "হে আল্লাহ! নিশ্চয়ই আপনি ক্ষমাশীল, আপনি ক্ষমা করতে ভালোবাসেন; অতএব আমাকে ক্ষমা করে দিন।",
+      "englishTranslation": "O Allah, You are Most Forgiving, and You love forgiveness; so forgive me.",
+      "banglaTransliteration": "আল্লাহুম্মা ইন্নাকা আফুউন তুহিব্বুল আফওয়া ফা’ফু আন্নী",
+      "source": "জামে তিরমিযী (হাদীস ৩৫১৩) [লাইলাতুল কদরের দোয়া]",
+      "category": "forgiveness",
+      "featured": true
+    },
+    {
+      "id": "dua-7",
+      "arabic": "ذَهَبَ الظَّمَأُ وَابْتَلَّتِ الْعُرُوقُ وَثَبَتَ الأَجْرُ إِنْ شَاءَ اللَّهُ",
+      "banglaTranslation": "পিপাসা দূর হলো, শিরা-উপশিরা সিক্ত হলো এবং ইনশাআল্লাহ পুরস্কারও নির্ধারিত হলো।",
+      "englishTranslation": "The thirst is gone, the veins are moistened, and the reward is confirmed, if Allah wills.",
+      "banglaTransliteration": "যাহাবাজ জামা-উ ওয়াবতাল্লাতিল উরূকু ওয়া সাবাতাল আজরু ইনশাআল্লাহ",
+      "source": "সুনান আবু দাউদ (হাদীস ২৩৫৭) [ইফতারের দোয়া]",
+      "category": "ramadan",
+      "featured": true
+    }
+  ],
+  "reminders": [
+    {
+      "id": "reminder-1",
+      "title": "Importance of Timely Prayer",
+      "banglaTitle": "নামাজ সময়মতো আদায় করুন",
+      "content": "The most beloved deed to Allah is the prayer offered at its appointed time.",
+      "banglaContent": "রাসূলুল্লাহ ﷺ বলেছেন: আল্লাহর কাছে সর্বাধিক প্রিয় আমল হলো সময়মতো নামাজ আদায় করা। (সহীহ বুখারী)",
+      "category": "namaz",
+      "active": true
+    },
+    {
+      "id": "reminder-2",
+      "title": "Daily Quran Recitation",
+      "banglaTitle": "প্রতিদিন কুরআন তিলাওয়াত করুন",
+      "content": "Recite the Quran, for it will come as an intercessor for its companions on the Day of Resurrection.",
+      "banglaContent": "কুরআন তিলাওয়াত করুন, কেননা কিয়ামতের দিন এটি তার পাঠকারীর জন্য সুপারিশকারী হিসেবে উপস্থিত হবে। (সহীহ মুসলিম)",
+      "category": "quran",
+      "active": true
+    },
+    {
+      "id": "reminder-3",
+      "title": "Kindness to Parents",
+      "banglaTitle": "পিতা-মাতার সাথে সদাচরণ করুন",
+      "content": "The pleasure of the Lord lies in the pleasure of the parents, and His anger lies in their anger.",
+      "banglaContent": "পিতা-মাতার সন্তুষ্টিতে মহান রবের সন্তুষ্টি এবং পিতা-মাতার অসন্তুষ্টিতে রবের অসন্তুষ্টি। (তিরমিযী)",
+      "category": "parents",
+      "active": true
+    },
+    {
+      "id": "reminder-4",
+      "title": "Abundance in Dhikr",
+      "banglaTitle": "বেশি বেশি আল্লাহর যিকির করুন",
+      "content": "Verily, in the remembrance of Allah do hearts find rest.",
+      "banglaContent": "জেনে রেখো! একমাত্র আল্লাহর স্মরণের মাধ্যমেই অন্তরসমূহ পরম প্রশান্তি লাভ করে। (সূরা আর-রাদ: ২৮)",
+      "category": "dhikr",
+      "active": true
+    },
+    {
+      "id": "reminder-5",
+      "title": "Surah Al-Kahf on Friday",
+      "banglaTitle": "জুমার দিন সূরা আল-কাহফ পড়ুন",
+      "content": "Whoever recites Surah Al-Kahf on Friday, a light will shine for him between this Friday and the next.",
+      "banglaContent": "যে ব্যক্তি জুমার দিন সূরা আল-কাহফ পাঠ করবে, তার জন্য এক জুমা থেকে অপর জুমা পর্যন্ত নূর প্রজ্বলিত থাকবে। (সহীহ আল-জামি)",
+      "category": "jummah",
+      "active": true
+    }
+  ]
+}
